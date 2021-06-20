@@ -1,0 +1,47 @@
+cities = ["Москва", "Санкт-Петербург", "Новочеркасск", "Геленджик", "Ташкент"]
+print(f"Мой родной город - {cities[2].upper()}")
+print(cities[-1])
+print(f"Мой родной город - {cities[-3].upper()}")
+cities[0] = 'Ростов'
+print(cities)
+cars = []
+cars.append('Хонда')
+print(cars)
+cars.append('Лада')
+print(cars)
+cars.insert(1, 'ОКА')
+cars.insert(0, 'Опель')
+print(cars)
+del cities[4]
+print(cities)
+city = cities.pop()
+print(cities)
+print(f"я приехала в {city}")
+cities.append("Порту")
+print(cities)
+
+city = cities.pop(3)
+print(cities)
+print(f'{city} - не наш город!!!')
+cities.remove('Санкт-Петербург')
+print(cities)
+print(sorted(cars))
+print(sorted(cars, reverse = True))
+#cars.sort()
+print(cars)
+#cars.sort(reverse = True)
+cars.reverse()
+print(cars)
+cars.reverse()
+print(cars)
+print(len(cars))
+print(len(cities))
+
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print("Here is the original list:")
+print(cars)
+print("\nHere is the sorted list:")
+print(sorted(cars))
+print("\nHere is the original list again:")
+print(cars)
